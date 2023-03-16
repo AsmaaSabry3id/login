@@ -1,0 +1,39 @@
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    color: #17a2b8;
+}
+input, textarea {
+    background-color: transparent !important;
+    color: white ;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s
+
+}
+.row {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
